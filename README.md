@@ -26,6 +26,12 @@ Similar to DumpAuthors.sh.  Nothing is done with this file, I dumped it out beca
 
 ## Convert
 ### ConvertAllRepositories.sh
+Make sure there is a "_Logs" directory in C:\Temp\Git  
+Make sure all other directories are removed from C:\Temp\Git  
+To run: Open Bash terminal (cygwin) and run the following commands:  
+ cd /cygdrive/c/Temp  
+ . ConvertAllRepositories.sh  
+ 
 This will take all the repositories from the Mercurial folder and create Git repositories in a Git folder  
 Removes all existing branches  
 Checks out the HEAD to pull all files into the main repository directory  
