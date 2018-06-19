@@ -1,6 +1,9 @@
 # MercurialToGit
 Steps and scripts I used to convert all of our Mercurial repositories to Git while maintaining history
 
+The conversion script uses hg-fast-export.  Get it here: https://github.com/frej/fast-export  
+Put it in a "fast-export" folder in the c:\Temp directory or wherever you're running this stuff from
+
 This conversion was done on a Windows server.
 
 Will convert Mercurial repositories to Git, normalizes author names if required, and removes all closed branches.
